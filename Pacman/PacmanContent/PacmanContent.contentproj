@@ -30,81 +30,81 @@
     <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.VideoImporters, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="mur.png">
+    <Compile Include="Map\mur.png">
       <Name>mur</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="bean.png">
+    <Compile Include="Map\bean.png">
       <Name>bean</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="pacman.png">
+    <Compile Include="Pacman\pacman.png">
       <Name>pacman</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="beanMagique.png">
+    <Compile Include="Map\beanMagique.png">
       <Name>beanMagique</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="fantome_cyan.png">
+    <Compile Include="Fantomes\fantome_cyan.png">
       <Name>fantome_cyan</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="fantome_orange.png">
+    <Compile Include="Fantomes\fantome_orange.png">
       <Name>fantome_orange</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="fantome_rose.png">
+    <Compile Include="Fantomes\fantome_rose.png">
       <Name>fantome_rose</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="fantome_rouge.png">
+    <Compile Include="Fantomes\fantome_rouge.png">
       <Name>fantome_rouge</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="fan_mangeable.png">
+    <Compile Include="Fantomes\fan_mangeable.png">
       <Name>fan_mangeable</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="pacmanGauche.png">
+    <Compile Include="Pacman\pacmanGauche.png">
       <Name>pacmanGauche</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="pacmanBas.png">
+    <Compile Include="Pacman\pacmanBas.png">
       <Name>pacmanBas</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
-    <Compile Include="pacmanHaut.png">
+    <Compile Include="Pacman\pacmanHaut.png">
       <Name>pacmanHaut</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="fantome_mort.png">
+    <Compile Include="Fantomes\fantome_mort.png">
       <Name>fantome_mort</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
@@ -131,7 +131,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="viePacman.png">
+    <Compile Include="Pacman\viePacman.png">
       <Name>viePacman</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>

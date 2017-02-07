@@ -160,15 +160,15 @@ namespace Pacman
             policeScore = Content.Load<SpriteFont>("PoliceScore");
             policePlay = Content.Load<SpriteFont>("policePlay");
 
-            mur = new ObjetAnime(Content.Load<Texture2D>("mur"), new Vector2(0f, 0f), new Vector2(20f, 20f));
-            bean = new ObjetAnime(Content.Load<Texture2D>("bean"), new Vector2(0f, 0f), new Vector2(20f, 20f));
-            pacman = new ObjetAnime(Content.Load<Texture2D>("pacman"), new Vector2(0f, 0f), new Vector2(20f, 20f), new Coord(23,13));
-            beanMagique = new ObjetAnime(Content.Load<Texture2D>("beanMagique"), new Vector2(0f, 0f), new Vector2(20f, 20f));
-            fantomeRose = new ObjetAnime(Content.Load<Texture2D>("fantome_Rose"), new Vector2(0f, 0f), new Vector2(20f, 20f),new Coord(14,15));
-            fantomeCyan = new ObjetAnime(Content.Load<Texture2D>("fantome_Cyan"), new Vector2(0f, 0f), new Vector2(20f, 20f), new Coord(14,14));
-            fantomeRouge = new ObjetAnime(Content.Load<Texture2D>("fantome_Rouge"), new Vector2(0f, 0f), new Vector2(20f, 20f), new Coord(14,13));
-            fantomeOrange = new ObjetAnime(Content.Load<Texture2D>("fantome_Orange"), new Vector2(0f, 0f), new Vector2(20f, 20f), new Coord(14,12));
-            fantomeMangeable = new ObjetAnime(Content.Load<Texture2D>("fan_mangeable"), new Vector2(0f, 0f), new Vector2(20f, 20f));
+            mur = new ObjetAnime(Content.Load<Texture2D>("./Map/mur"), new Vector2(0f, 0f), new Vector2(20f, 20f));
+            bean = new ObjetAnime(Content.Load<Texture2D>("./Map/bean"), new Vector2(0f, 0f), new Vector2(20f, 20f));
+            pacman = new ObjetAnime(Content.Load<Texture2D>("./Pacman/pacman"), new Vector2(0f, 0f), new Vector2(20f, 20f), new Coord(23,13));
+            beanMagique = new ObjetAnime(Content.Load<Texture2D>("./Map/beanMagique"), new Vector2(0f, 0f), new Vector2(20f, 20f));
+            fantomeRose = new ObjetAnime(Content.Load<Texture2D>("./Fantomes/fantome_Rose"), new Vector2(0f, 0f), new Vector2(20f, 20f),new Coord(14,15));
+            fantomeCyan = new ObjetAnime(Content.Load<Texture2D>("./Fantomes/fantome_Cyan"), new Vector2(0f, 0f), new Vector2(20f, 20f), new Coord(14,14));
+            fantomeRouge = new ObjetAnime(Content.Load<Texture2D>("./Fantomes/fantome_Rouge"), new Vector2(0f, 0f), new Vector2(20f, 20f), new Coord(14,13));
+            fantomeOrange = new ObjetAnime(Content.Load<Texture2D>("./Fantomes/fantome_Orange"), new Vector2(0f, 0f), new Vector2(20f, 20f), new Coord(14,12));
+            fantomeMangeable = new ObjetAnime(Content.Load<Texture2D>("./Fantomes/fan_mangeable"), new Vector2(0f, 0f), new Vector2(20f, 20f));
 
             tabObjetFantomes[0] = fantomeRouge;
             tabObjetFantomes[1] = fantomeCyan;
@@ -235,22 +235,22 @@ namespace Pacman
                     //Rouge
                     if (_fantomeRouge.getEtatMangeable == false && _fantomeRouge.getEtatMort == false) //Si le fantome est mangeable et s'il est vivant...
                         fantomeRouge.coord = _fantomeRouge.Dijkstra(pacman, fantomeRouge, map, new Coord(14, 13));//Sa position est reinitialisé grâce à Dijkstra
-                    fuiteFantome(_fantomeRouge, fantomeRouge, Content.Load<Texture2D>("fantome_rouge"));//Sinon, s'il est mangeable, le fantome fuit le pacman
+                    fuiteFantome(_fantomeRouge, fantomeRouge, Content.Load<Texture2D>("./Fantomes/fantome_rouge"));//Sinon, s'il est mangeable, le fantome fuit le pacman
                 
                     //Orange
                     if (_fantomeOrange.getEtatMangeable == false && _fantomeOrange.getEtatMort == false)
                          _fantomeOrange.DeplacementAleatoire(fantomeOrange,  map, spriteBatch);
-                    fuiteFantome(_fantomeOrange, fantomeOrange, Content.Load<Texture2D>("fantome_orange"));
+                    fuiteFantome(_fantomeOrange, fantomeOrange, Content.Load<Texture2D>("./Fantomes/fantome_orange"));
 
                     //Cyan
                     if (_fantomeCyan.getEtatMangeable == false && _fantomeCyan.getEtatMort == false)
                         _fantomeCyan.DeplacementAleatoire(fantomeCyan,  map, spriteBatch);
-                    fuiteFantome(_fantomeCyan, fantomeCyan, Content.Load<Texture2D>("fantome_cyan"));
+                    fuiteFantome(_fantomeCyan, fantomeCyan, Content.Load<Texture2D>("./Fantomes/fantome_cyan"));
 
                     //Rose
                     if (_fantomeRose.getEtatMangeable == false && _fantomeRose.getEtatMort == false)
                          _fantomeRose.DeplacementAleatoire(fantomeRose,  map, spriteBatch);
-                    fuiteFantome(_fantomeRose, fantomeRose, Content.Load<Texture2D>("fantome_rose"));
+                    fuiteFantome(_fantomeRose, fantomeRose, Content.Load<Texture2D>("./Fantomes/fantome_rose"));
                         
                 }
                 compteurVitesseFantome++;
@@ -303,16 +303,16 @@ namespace Pacman
             switch (viePacman) //Selon le nombre de vie qu'il reste , on affiche plus ou moins de pacman sur l'écran de droite
             {
                 case 1:
-                    spriteBatch.Draw(Content.Load<Texture2D>("viePacman"), new Vector2(750, 165), Color.White);
+                    spriteBatch.Draw(Content.Load<Texture2D>("./Pacman/viePacman"), new Vector2(750, 165), Color.White);
                     break;
                 case 2:
-                    spriteBatch.Draw(Content.Load<Texture2D>("viePacman"), new Vector2(750, 165), Color.White);
-                    spriteBatch.Draw(Content.Load<Texture2D>("viePacman"), new Vector2(800, 165), Color.White);
+                    spriteBatch.Draw(Content.Load<Texture2D>("./Pacman/viePacman"), new Vector2(750, 165), Color.White);
+                    spriteBatch.Draw(Content.Load<Texture2D>("./Pacman/viePacman"), new Vector2(800, 165), Color.White);
                     break;
                 case 3:
-                    spriteBatch.Draw(Content.Load<Texture2D>("viePacman"), new Vector2(750, 165), Color.White);
-                    spriteBatch.Draw(Content.Load<Texture2D>("viePacman"), new Vector2(800, 165), Color.White);
-                    spriteBatch.Draw(Content.Load<Texture2D>("viePacman"), new Vector2(850, 165), Color.White); break;
+                    spriteBatch.Draw(Content.Load<Texture2D>("./Pacman/viePacman"), new Vector2(750, 165), Color.White);
+                    spriteBatch.Draw(Content.Load<Texture2D>("./Pacman/viePacman"), new Vector2(800, 165), Color.White);
+                    spriteBatch.Draw(Content.Load<Texture2D>("./Pacman/viePacman"), new Vector2(850, 165), Color.White); break;
                 case 0:
                     spriteBatch.DrawString(policeScore, "GAME OVER", new Vector2(600, 350), Color.Red);
                     spriteBatch.DrawString(policePlay, "Appuyer sur ENTRER pour QUITTER", new Vector2(600, 400), Color.Red);
@@ -360,10 +360,10 @@ namespace Pacman
 
         protected void RegenFantome() //Les fantomes retrouvent leurs textures d'origine
         {
-             fantomeCyan.Texture = Content.Load<Texture2D>("fantome_cyan");
-             fantomeOrange.Texture = Content.Load<Texture2D>("fantome_orange");
-             fantomeRose.Texture = Content.Load<Texture2D>("fantome_rose");
-             fantomeRouge.Texture = Content.Load<Texture2D>("fantome_rouge");             
+             fantomeCyan.Texture = Content.Load<Texture2D>("./Fantomes/fantome_cyan");
+             fantomeOrange.Texture = Content.Load<Texture2D>("./Fantomes/fantome_orange");
+             fantomeRose.Texture = Content.Load<Texture2D>("./Fantomes/fantome_rose");
+             fantomeRouge.Texture = Content.Load<Texture2D>("./Fantomes/fantome_rouge");             
         }
 
         protected void MangerFantome(ObjetAnime pacman, ObjetAnime fantome) //Changement de la texture des fantomes quand ils sont "mangeable"
@@ -372,7 +372,7 @@ namespace Pacman
             {
                 if(pacman.coord == fantome.coord)
                 {
-                    fantome.Texture = Content.Load<Texture2D>("FantomePeur1");
+                    fantome.Texture = Content.Load<Texture2D>("./Fantomes/FantomePeur1");
                 }
             }
         }
@@ -388,8 +388,8 @@ namespace Pacman
             //S'ils sont mort
             if (_fantome.getEtatMort == true)
             {
-                fantome.Texture = Content.Load<Texture2D>("fantome_mort");  //ils changent de textures
-                _fantome.getEtatMangeable = false;                       //Ils ne sont plus mangeables
+                fantome.Texture = Content.Load<Texture2D>("./Fantomes/fantome_mort");  //ils changent de textures
+               // _fantome.getEtatMangeable = false;                       //Ils ne sont plus mangeables
                 fantome.coord = _fantome.retourMaison(new Coord(14, 13), fantome, texture, map); //Ils rentrent dans leur maison pour mettre leur texture par defaut et chasser le pacman
             }
             

@@ -64,7 +64,7 @@ namespace Pacman
                 {
                     direction = "Right";
                     ContrainteDeplacement(direction, spriteBatch);
-                    pacman.Texture = Content.Load<Texture2D>("pacman");
+                    pacman.Texture = Content.Load<Texture2D>("./Pacman/pacman");
                 }
             }
             else if (keyboard.IsKeyDown(Keys.Left))
@@ -77,7 +77,7 @@ namespace Pacman
                 {
                     direction = "Left";
                     ContrainteDeplacement(direction, spriteBatch);
-                    pacman.Texture = Content.Load<Texture2D>("pacmanGauche");
+                    pacman.Texture = Content.Load<Texture2D>("./Pacman/pacmanGauche");
                 }
             }
             else if (keyboard.IsKeyDown(Keys.Up))
@@ -90,7 +90,7 @@ namespace Pacman
                 {
                     direction = "Up";
                     ContrainteDeplacement(direction, spriteBatch);
-                    pacman.Texture = Content.Load<Texture2D>("PacmanHaut");
+                    pacman.Texture = Content.Load<Texture2D>("./Pacman/PacmanHaut");
                 }
             }
             else if (keyboard.IsKeyDown(Keys.Down))
@@ -103,7 +103,7 @@ namespace Pacman
                 {
                     direction = "Down";
                     ContrainteDeplacement(direction, spriteBatch);
-                    pacman.Texture = Content.Load<Texture2D>("PacmanBas");
+                    pacman.Texture = Content.Load<Texture2D>("./Pacman/PacmanBas");
                 }
             }
             else

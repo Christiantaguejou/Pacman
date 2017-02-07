@@ -75,19 +75,19 @@
     <Reference Include="System.Net" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Affichage.cs" />
-    <Compile Include="Bean.cs" />
-    <Compile Include="BeanMagique.cs" />
-    <Compile Include="Coord.cs" />
-    <Compile Include="FantomeRouge.cs" />
-    <Compile Include="Fantomes.cs" />
-    <Compile Include="Mur.cs" />
-    <Compile Include="ObjetAnime.cs" />
+    <Compile Include="Affichage\Affichage.cs" />
+    <Compile Include="Affichage\Bean.cs" />
+    <Compile Include="Affichage\BeanMagique.cs" />
+    <Compile Include="Utiles\Coord.cs" />
+    <Compile Include="Fantomes\FantomeRouge.cs" />
+    <Compile Include="Fantomes\Fantomes.cs" />
+    <Compile Include="Affichage\Mur.cs" />
+    <Compile Include="Utiles\ObjetAnime.cs" />
     <Compile Include="Pacman.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Utiles\Program.cs" />
     <Compile Include="Game1.cs" />
-    <Compile Include="Sommet.cs" />
+    <Compile Include="Utiles\Sommet.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Game.ico" />

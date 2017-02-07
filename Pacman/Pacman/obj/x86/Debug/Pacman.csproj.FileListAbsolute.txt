@@ -164,3 +164,37 @@ C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\JOLIVET_TAGUEJOU\pacman\Pacman
 C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\JOLIVET_TAGUEJOU\pacman\Pacman\Pacman\Pacman\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\JOLIVET_TAGUEJOU\pacman\Pacman\Pacman\Pacman\obj\x86\Debug\Pacman.exe
 C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\JOLIVET_TAGUEJOU\pacman\Pacman\Pacman\Pacman\obj\x86\Debug\Pacman.pdb
+D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Invincible.xnb
+D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Content\MonsterEaten.xnb
+D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Content\PoliceScore.xnb
+D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Content\policePlay.xnb
+D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Pacman.exe
+D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Pacman.pdb
+D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.dll
+D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.Game.dll
+D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.dll
+D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.dll
+D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.dll
+D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.xml
+D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.Game.xml
+D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.xml
+D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.xml
+D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.xml
+D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\obj\x86\Debug\Pacman.csprojResolveAssemblyReference.cache
+D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\obj\x86\Debug\Pacman.exe
+D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\obj\x86\Debug\Pacman.pdb
+D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Map\mur.xnb
+D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Map\bean.xnb
+D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Pacman\pacman.xnb
+D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Map\beanMagique.xnb
+D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Fantomes\fantome_cyan.xnb
+D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Fantomes\fantome_orange.xnb
+D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Fantomes\fantome_rose.xnb
+D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Fantomes\fantome_rouge.xnb
+D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Fantomes\fan_mangeable.xnb
+D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Pacman\pacmanGauche.xnb
+D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Pacman\pacmanBas.xnb
+D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Pacman\pacmanHaut.xnb
+D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Fantomes\fantome_mort.xnb
+D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Pacman\viePacman.xnb
