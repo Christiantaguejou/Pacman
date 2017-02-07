@@ -170,6 +170,25 @@ namespace Pacman
 
         }
 
+        public Boolean pacmanProchePouvoir(ObjetAnime pacman, byte[,] map)
+        {
+            for (int i = 0; i < Affichage.VX; i++)
+            {
+                for (int j = 0; j < Affichage.VY; j++)
+                {
+                    if (map[i, j] == 3)
+                    {
+                        if ((Math.Abs(pacman.coord.X - i) <= 2) || (Math.Abs(pacman.coord.Y - j) <= 2))
+                        {
+                            Console.WriteLine("Proche !!!!");
+                            return true;
+                        }
+                    }
+                }
+            }
+            return false;
+        }
+
 
     }
 }

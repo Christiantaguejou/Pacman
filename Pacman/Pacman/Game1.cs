@@ -208,11 +208,13 @@ namespace Pacman
             {
                 //La fonction Update met à jour régulièrement le jeu, donc à partir d'un compteur on peut gérer les vitesses de déplacement
 
+                #region deplacement et mort du pacman
                 //Vitesse et déplacement du Pacman
                 if (compteurVitessePacman > 5)
                 {
                     _pacman.Deplacement(gameTime, Content, spriteBatch); //Chaque fois que le compteur sera à 5, le pacman bougera d'un "case"
-                    compteurVitessePacman = 0; //On remet le compteur à zéro
+                    compteurVitessePacman = 0;                           //On remet le compteur à zéro
+                    _pacman.pacmanProchePouvoir(pacman, map);
                 }
                 compteurVitessePacman++;
 
@@ -226,7 +228,9 @@ namespace Pacman
                         viePacman--;
                     }
                 }
+                #endregion
 
+                #region Deplacement des fantomes
                 //Vitesse et déplacement des fantomes
                 if (compteurVitesseFantome > 6)
                 {
@@ -254,7 +258,7 @@ namespace Pacman
                         
                 }
                 compteurVitesseFantome++;
-
+                #endregion
                 //Pouvoir
                 MangerPouvoir(pacman.coord.X, pacman.coord.Y);        //On vérifie à chaqu'instant si le pacman à mangé un pouvoir, si c'est le cas
                                                                       //Le compteur tpsPouvoir est déclenché
@@ -382,7 +386,7 @@ namespace Pacman
             //Si les fantomes sont "mangeables" et vivant...
             if (_fantome.getEtatMangeable == true && _fantome.getEtatMort == false)
             {
-                _fantome.Fuite(fantome, pacman, map, spriteBatch); //...ils fuient le pacman
+                _fantome.pacmanVisible(fantome, pacman, map, spriteBatch); //...ils fuient le pacman
                 mangeable = true;
             }
             //S'ils sont mort

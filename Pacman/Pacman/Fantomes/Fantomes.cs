@@ -24,7 +24,6 @@ namespace Pacman
             this.mort = mort;
         }
         
-        //Affichage du fantome
         public void Afficher(ObjetAnime fantome, SpriteBatch spriteBatch)
         {
             spriteBatch.Begin();
@@ -44,7 +43,9 @@ namespace Pacman
             }
             spriteBatch.End();
         }
-        
+
+        #region DeplacementAleatoire
+       
         public void DeplacementAleatoire(ObjetAnime fantome, byte [,] map, SpriteBatch spriteBatch)
         {
 
@@ -82,7 +83,7 @@ namespace Pacman
             choixDeplacement(fantome, newDirection, map, spriteBatch);
         }
 
-        public void choixDeplacement(ObjetAnime objet, string key, byte[,] map, SpriteBatch spriteBatch)
+        protected void choixDeplacement(ObjetAnime objet, string key, byte[,] map, SpriteBatch spriteBatch)
         {
             //On modifie les coordonnées du fantomes selon la direction qui a été tirée dans la liste des mouvement possibles
             if (key == "Left")
@@ -103,7 +104,7 @@ namespace Pacman
             }
         }
 
-        public List<string> degreDeLiberte(ObjetAnime Fantome, byte[,] map)
+        protected List<string> degreDeLiberte(ObjetAnime Fantome, byte[,] map)
         {
             List<string> degLiberte = new List<string>();           //Liste string qui permet de connaitre les dégrés de liberté du fantome
             if (map[Fantome.coord.X + 1, Fantome.coord.Y] != 0)     //C'est à dire les directions où il n'y a pas de mur       
@@ -118,7 +119,10 @@ namespace Pacman
             return degLiberte;
         }
 
-        public void DeplacementFuite(ObjetAnime fantome, ObjetAnime pacman, byte[,] map, List<String> liberte, SpriteBatch spriteBatch)
+        #endregion
+
+        #region Fuite
+        protected void DeplacementFuite(ObjetAnime fantome, ObjetAnime pacman, byte[,] map, List<String> liberte, SpriteBatch spriteBatch)
         {
            //Tout comme précedemment, cette fonction donne les déplcament possible du fantome
             Random rand = new Random();
@@ -130,7 +134,7 @@ namespace Pacman
             choixDeplacement(fantome, mvt, map, spriteBatch);
         }
 
-        public string sensInverse(string direction) //Cette méthode permet d'avoir l'inverse de chaque direction
+        protected string sensInverse(string direction) //Cette méthode permet d'avoir l'inverse de chaque direction
         {
             string mvt;
             switch (direction)
@@ -158,7 +162,7 @@ namespace Pacman
             return mvt;
         }
 
-        public void Fuite(ObjetAnime fantome, ObjetAnime pacman, byte [,] map, SpriteBatch spriteBatch)
+        public void pacmanVisible(ObjetAnime fantome, ObjetAnime pacman, byte [,] map, SpriteBatch spriteBatch)
         {
             List<String> direction = new List<String>() ;
             
@@ -362,6 +366,8 @@ namespace Pacman
             }
             return suivant;
         }
+
+        #endregion
 
         public Boolean getEtatMangeable
         {
