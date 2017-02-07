@@ -4,3 +4,4 @@ C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman\Pacman\Pacman\PacmanCon
 C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman - Bitbucket\Pacman\Pacman\PacmanContent\obj\x86\Debug\PacmanContent.contentprojResolveAssemblyReference.cache
 C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\JOLIVET_TAGUEJOU\pacman\Pacman\Pacman\PacmanContent\obj\x86\Debug\PacmanContent.contentprojResolveAssemblyReference.cache
 D:\DOCUMENTS\C#\Pacman\Pacman\PacmanContent\obj\x86\Debug\PacmanContent.contentprojResolveAssemblyReference.cache
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman Github\pacman\Pacman\PacmanContent\obj\x86\Debug\PacmanContent.contentprojResolveAssemblyReference.cache

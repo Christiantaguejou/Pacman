@@ -1,7 +1,3 @@
-Content\Invincible.xnb
-Content\MonsterEaten.xnb
-Content\PoliceScore.xnb
-Content\policePlay.xnb
 Content\Map\mur.xnb
 Content\Map\bean.xnb
 Content\Pacman\pacman.xnb
@@ -16,3 +12,7 @@ Content\Pacman\pacmanBas.xnb
 Content\Pacman\pacmanHaut.xnb
 Content\Fantomes\fantome_mort.xnb
 Content\Pacman\viePacman.xnb
+Content\Invincible.xnb
+Content\MonsterEaten.xnb
+Content\PoliceScore.xnb
+Content\policePlay.xnb

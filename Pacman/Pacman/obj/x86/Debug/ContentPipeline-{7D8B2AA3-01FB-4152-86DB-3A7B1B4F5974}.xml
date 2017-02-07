@@ -2,49 +2,13 @@
 <XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
-      <Source>Invincible.wav</Source>
-      <Name>Invincible</Name>
-      <Importer>WavImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Invincible.xnb</Output>
-      <Time>2017-02-07T02:22:42.0598598+01:00</Time>
-    </Item>
-    <Item>
-      <Source>MonsterEaten.wav</Source>
-      <Name>MonsterEaten</Name>
-      <Importer>WavImporter</Importer>
-      <Processor>SoundEffectProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Content\MonsterEaten.xnb</Output>
-      <Time>2017-02-07T02:22:42.1129332+01:00</Time>
-    </Item>
-    <Item>
-      <Source>PoliceScore.spritefont</Source>
-      <Name>PoliceScore</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Content\PoliceScore.xnb</Output>
-      <Time>2017-02-07T02:22:42.1875725+01:00</Time>
-    </Item>
-    <Item>
-      <Source>policePlay.spritefont</Source>
-      <Name>policePlay</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Content\policePlay.xnb</Output>
-      <Time>2017-02-07T02:22:42.580099+01:00</Time>
-    </Item>
-    <Item>
       <Source>Map\mur.png</Source>
       <Name>Map\mur</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Map\mur.xnb</Output>
-      <Time>2017-02-07T02:22:42.3286972+01:00</Time>
+      <Output>C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman Github\pacman\Pacman\Pacman\bin\x86\Debug\Content\Map\mur.xnb</Output>
+      <Time>2017-02-07T16:16:02.996741+01:00</Time>
     </Item>
     <Item>
       <Source>Map\bean.png</Source>
@@ -52,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Map\bean.xnb</Output>
-      <Time>2017-02-07T02:22:42.202091+01:00</Time>
+      <Output>C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman Github\pacman\Pacman\Pacman\bin\x86\Debug\Content\Map\bean.xnb</Output>
+      <Time>2017-02-07T16:16:02.9927409+01:00</Time>
     </Item>
     <Item>
       <Source>Pacman\pacman.png</Source>
@@ -61,8 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Pacman\pacman.xnb</Output>
-      <Time>2017-02-07T02:22:42.4766318+01:00</Time>
+      <Output>C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman Github\pacman\Pacman\Pacman\bin\x86\Debug\Content\Pacman\pacman.xnb</Output>
+      <Time>2017-02-07T16:16:03.0057427+01:00</Time>
     </Item>
     <Item>
       <Source>Map\beanMagique.png</Source>
@@ -70,8 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Map\beanMagique.xnb</Output>
-      <Time>2017-02-07T02:22:42.2152015+01:00</Time>
+      <Output>C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman Github\pacman\Pacman\Pacman\bin\x86\Debug\Content\Map\beanMagique.xnb</Output>
+      <Time>2017-02-07T16:16:02.9947412+01:00</Time>
     </Item>
     <Item>
       <Source>Fantomes\fantome_cyan.png</Source>
@@ -79,8 +43,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Fantomes\fantome_cyan.xnb</Output>
-      <Time>2017-02-07T02:22:42.2500699+01:00</Time>
+      <Output>C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman Github\pacman\Pacman\Pacman\bin\x86\Debug\Content\Fantomes\fantome_cyan.xnb</Output>
+      <Time>2017-02-07T16:16:02.9807393+01:00</Time>
     </Item>
     <Item>
       <Source>Fantomes\fantome_orange.png</Source>
@@ -88,8 +52,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Fantomes\fantome_orange.xnb</Output>
-      <Time>2017-02-07T02:22:42.2791126+01:00</Time>
+      <Output>C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman Github\pacman\Pacman\Pacman\bin\x86\Debug\Content\Fantomes\fantome_orange.xnb</Output>
+      <Time>2017-02-07T16:16:02.9857405+01:00</Time>
     </Item>
     <Item>
       <Source>Fantomes\fantome_rose.png</Source>
@@ -97,8 +61,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Fantomes\fantome_rose.xnb</Output>
-      <Time>2017-02-07T02:22:42.2966471+01:00</Time>
+      <Output>C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman Github\pacman\Pacman\Pacman\bin\x86\Debug\Content\Fantomes\fantome_rose.xnb</Output>
+      <Time>2017-02-07T16:16:02.9877405+01:00</Time>
     </Item>
     <Item>
       <Source>Fantomes\fantome_rouge.png</Source>
@@ -106,8 +70,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Fantomes\fantome_rouge.xnb</Output>
-      <Time>2017-02-07T02:22:42.3111692+01:00</Time>
+      <Output>C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman Github\pacman\Pacman\Pacman\bin\x86\Debug\Content\Fantomes\fantome_rouge.xnb</Output>
+      <Time>2017-02-07T16:16:02.9897398+01:00</Time>
     </Item>
     <Item>
       <Source>Fantomes\fan_mangeable.png</Source>
@@ -115,8 +79,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Fantomes\fan_mangeable.xnb</Output>
-      <Time>2017-02-07T02:22:42.2332793+01:00</Time>
+      <Output>C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman Github\pacman\Pacman\Pacman\bin\x86\Debug\Content\Fantomes\fan_mangeable.xnb</Output>
+      <Time>2017-02-07T16:16:02.9797402+01:00</Time>
     </Item>
     <Item>
       <Source>Pacman\pacmanGauche.png</Source>
@@ -124,8 +88,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Pacman\pacmanGauche.xnb</Output>
-      <Time>2017-02-07T02:22:42.509489+01:00</Time>
+      <Output>C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman Github\pacman\Pacman\Pacman\bin\x86\Debug\Content\Pacman\pacmanGauche.xnb</Output>
+      <Time>2017-02-07T16:16:03.0097414+01:00</Time>
     </Item>
     <Item>
       <Source>Pacman\pacmanBas.png</Source>
@@ -133,8 +97,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Pacman\pacmanBas.xnb</Output>
-      <Time>2017-02-07T02:22:42.4944599+01:00</Time>
+      <Output>C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman Github\pacman\Pacman\Pacman\bin\x86\Debug\Content\Pacman\pacmanBas.xnb</Output>
+      <Time>2017-02-07T16:16:03.0077414+01:00</Time>
     </Item>
     <Item>
       <Source>Pacman\pacmanHaut.png</Source>
@@ -142,8 +106,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Pacman\pacmanHaut.xnb</Output>
-      <Time>2017-02-07T02:22:42.5260158+01:00</Time>
+      <Output>C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman Github\pacman\Pacman\Pacman\bin\x86\Debug\Content\Pacman\pacmanHaut.xnb</Output>
+      <Time>2017-02-07T16:16:03.0117409+01:00</Time>
     </Item>
     <Item>
       <Source>Fantomes\fantome_mort.png</Source>
@@ -151,8 +115,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Fantomes\fantome_mort.xnb</Output>
-      <Time>2017-02-07T02:22:42.2620866+01:00</Time>
+      <Output>C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman Github\pacman\Pacman\Pacman\bin\x86\Debug\Content\Fantomes\fantome_mort.xnb</Output>
+      <Time>2017-02-07T16:16:02.9837397+01:00</Time>
     </Item>
     <Item>
       <Source>Pacman\viePacman.png</Source>
@@ -160,8 +124,44 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Pacman\viePacman.xnb</Output>
-      <Time>2017-02-07T02:22:42.593622+01:00</Time>
+      <Output>C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman Github\pacman\Pacman\Pacman\bin\x86\Debug\Content\Pacman\viePacman.xnb</Output>
+      <Time>2017-02-07T16:16:03.0137422+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Invincible.wav</Source>
+      <Name>Invincible</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman Github\pacman\Pacman\Pacman\bin\x86\Debug\Content\Invincible.xnb</Output>
+      <Time>2017-02-06T19:44:50+01:00</Time>
+    </Item>
+    <Item>
+      <Source>MonsterEaten.wav</Source>
+      <Name>MonsterEaten</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman Github\pacman\Pacman\Pacman\bin\x86\Debug\Content\MonsterEaten.xnb</Output>
+      <Time>2017-02-06T19:44:50+01:00</Time>
+    </Item>
+    <Item>
+      <Source>PoliceScore.spritefont</Source>
+      <Name>PoliceScore</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman Github\pacman\Pacman\Pacman\bin\x86\Debug\Content\PoliceScore.xnb</Output>
+      <Time>2017-02-06T19:44:50+01:00</Time>
+    </Item>
+    <Item>
+      <Source>policePlay.spritefont</Source>
+      <Name>policePlay</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman Github\pacman\Pacman\Pacman\bin\x86\Debug\Content\policePlay.xnb</Output>
+      <Time>2017-02-06T20:11:34+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -170,10 +170,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>D:\DOCUMENTS\C#\Pacman\Pacman\PacmanContent\</RootDirectory>
-      <LoggerRootDirectory>D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\</LoggerRootDirectory>
-      <IntermediateDirectory>D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>D:\DOCUMENTS\C#\Pacman\Pacman\Pacman\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman Github\pacman\Pacman\PacmanContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman Github\pacman\Pacman\Pacman\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman Github\pacman\Pacman\Pacman\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman Github\pacman\Pacman\Pacman\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -201,8 +201,8 @@
         <Value>2011-09-01T17:22:30+02:00</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2017-01-10T12:47:44.531034+01:00</Value>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2017-01-04T13:17:43.7183029+01:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>
