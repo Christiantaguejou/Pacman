@@ -386,7 +386,7 @@ namespace Pacman
             //Si les fantomes sont "mangeables" et vivant...
             if (_fantome.getEtatMangeable == true && _fantome.getEtatMort == false)
             {
-                _fantome.pacmanVisible(fantome, pacman, map, spriteBatch); //...ils fuient le pacman
+                _fantome.fuite(fantome, pacman, map, spriteBatch); //...ils fuient le pacman
                 mangeable = true;
             }
             //S'ils sont mort

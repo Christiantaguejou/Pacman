@@ -178,7 +178,7 @@ namespace Pacman
                 {
                     if (map[i, j] == 3)
                     {
-                        if ((Math.Abs(pacman.coord.X - i) <= 2) || (Math.Abs(pacman.coord.Y - j) <= 2))
+                        if ((Math.Abs(pacman.coord.X - i) <= 5) || (Math.Abs(pacman.coord.Y - j) <= 5))
                         {
                             Console.WriteLine("Proche !!!!");
                             return true;

@@ -162,7 +162,7 @@ namespace Pacman
             return mvt;
         }
 
-        public void pacmanVisible(ObjetAnime fantome, ObjetAnime pacman, byte [,] map, SpriteBatch spriteBatch)
+        public void fuite(ObjetAnime fantome, ObjetAnime pacman, byte [,] map, SpriteBatch spriteBatch)
         {
             List<String> direction = new List<String>() ;
             
@@ -368,6 +368,37 @@ namespace Pacman
         }
 
         #endregion
+
+        public void pacmanVisible(ObjetAnime fantome, ObjetAnime pacman, byte [,] map)
+        {
+            if(fantome.coord.X == pacman.coord.X)                       //Si le pacman et le fantome sont sur la même ligne
+            {
+                if(fantome.coord.Y < pacman.coord.Y)                    //Si le fantome est à gauche du pacman
+                {
+                    if (map[fantome.coord.X, fantome.coord.Y + 1] != 0)//S'il y'a pas de mur entre le pacman et le fantome
+                        fantome.coord.Y += fantome.coord.Y;             //Le fantome va vers le pacman
+                }
+                else if (fantome.coord.Y > pacman.coord.Y)              //Si le fantome est à droite du pacman
+                {
+                    if (map[fantome.coord.X, fantome.coord.Y - 1] != 0)
+                        fantome.coord.Y -= fantome.coord.Y;
+                }
+            }
+
+            else if (fantome.coord.Y == pacman.coord.Y)                  //Si le pacman et le fantome sont sur la même colonne
+            {
+                if (fantome.coord.X < pacman.coord.X)                    //Si le fantome est en haut du pacman
+                {
+                    if (map[fantome.coord.X + 1, fantome.coord.Y] != 0)
+                        fantome.coord.X += fantome.coord.X;
+                }
+                else if (fantome.coord.X > pacman.coord.X)               //Si le fantome est en bas
+                {
+                    if (map[fantome.coord.X - 1, fantome.coord.Y] != 0)
+                        fantome.coord.X -= fantome.coord.X;
+                }
+            }
+        }
 
         public Boolean getEtatMangeable
         {

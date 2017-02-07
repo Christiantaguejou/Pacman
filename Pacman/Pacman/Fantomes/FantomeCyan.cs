@@ -15,5 +15,9 @@ namespace Pacman
             mort = false;
         }
 
+        public void Deplacement()
+        {
+
+        }
     }
 }
