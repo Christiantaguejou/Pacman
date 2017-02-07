@@ -1,0 +1,5 @@
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\PacmanContent\obj\x86\Debug\PacmanContent.contentprojResolveAssemblyReference.cache
+C:\Users\chris\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\PacmanContent\obj\x86\Debug\PacmanContent.contentprojResolveAssemblyReference.cache
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman\Pacman\Pacman\PacmanContent\obj\x86\Debug\PacmanContent.contentprojResolveAssemblyReference.cache
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman - Bitbucket\Pacman\Pacman\PacmanContent\obj\x86\Debug\PacmanContent.contentprojResolveAssemblyReference.cache
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\JOLIVET_TAGUEJOU\pacman\Pacman\Pacman\PacmanContent\obj\x86\Debug\PacmanContent.contentprojResolveAssemblyReference.cache

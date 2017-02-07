@@ -1,0 +1,166 @@
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Pacman.exe
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Pacman.pdb
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.dll
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.Game.dll
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.dll
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.dll
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.dll
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.xml
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.Game.xml
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.xml
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.xml
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.xml
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\obj\x86\Debug\Pacman.csprojResolveAssemblyReference.cache
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\obj\x86\Debug\Pacman.exe
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\obj\x86\Debug\Pacman.pdb
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\bean.xnb
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\mur.xnb
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\pacman.xnb
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\beanMagique.xnb
+C:\Users\chris\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\mur.xnb
+C:\Users\chris\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\bean.xnb
+C:\Users\chris\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\pacman.xnb
+C:\Users\chris\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\beanMagique.xnb
+C:\Users\chris\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Pacman.exe
+C:\Users\chris\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Pacman.pdb
+C:\Users\chris\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.dll
+C:\Users\chris\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.Game.dll
+C:\Users\chris\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.dll
+C:\Users\chris\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.dll
+C:\Users\chris\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.dll
+C:\Users\chris\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.xml
+C:\Users\chris\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.Game.xml
+C:\Users\chris\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.xml
+C:\Users\chris\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.xml
+C:\Users\chris\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.xml
+C:\Users\chris\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\obj\x86\Debug\Pacman.csprojResolveAssemblyReference.cache
+C:\Users\chris\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\chris\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\obj\x86\Debug\Pacman.exe
+C:\Users\chris\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\obj\x86\Debug\Pacman.pdb
+C:\Users\chris\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\fantome_cyan.xnb
+C:\Users\chris\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\fantome_orange.xnb
+C:\Users\chris\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\fantome_rose.xnb
+C:\Users\chris\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\fantome_rouge.xnb
+C:\Users\chris\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\fan_mangeable.xnb
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\fantome_cyan.xnb
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\fantome_orange.xnb
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\fantome_rose.xnb
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\fantome_rouge.xnb
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\fan_mangeable.xnb
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\pacmanGauche.xnb
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\pacmanBas.xnb
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\pacmanHaut.xnb
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\FantomePeur1.xnb
+C:\Users\chris\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\pacmanGauche.xnb
+C:\Users\chris\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\pacmanBas.xnb
+C:\Users\chris\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\pacmanHaut.xnb
+C:\Users\chris\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\FantomePeur1.xnb
+C:\Users\chris\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Invincible.xnb
+C:\Users\chris\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\MonsterEaten.xnb
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Invincible.xnb
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\MonsterEaten.xnb
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\PoliceScore.xnb
+C:\Users\chris\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\PoliceScore.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\mur.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\bean.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\pacman.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\beanMagique.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\fantome_cyan.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\fantome_orange.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\fantome_rose.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\fantome_rouge.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\fan_mangeable.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\pacmanGauche.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\pacmanBas.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\pacmanHaut.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Invincible.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\MonsterEaten.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\PoliceScore.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Pacman.exe
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Pacman.pdb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.dll
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.Game.dll
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.dll
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.dll
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.dll
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.xml
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.Game.xml
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.xml
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.xml
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.xml
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman\Pacman\Pacman\Pacman\obj\x86\Debug\Pacman.csprojResolveAssemblyReference.cache
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman\Pacman\Pacman\Pacman\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman\Pacman\Pacman\Pacman\obj\x86\Debug\Pacman.exe
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman\Pacman\Pacman\Pacman\obj\x86\Debug\Pacman.pdb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman - Bitbucket\Pacman\Pacman\Pacman\bin\x86\Debug\Content\mur.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman - Bitbucket\Pacman\Pacman\Pacman\bin\x86\Debug\Content\bean.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman - Bitbucket\Pacman\Pacman\Pacman\bin\x86\Debug\Content\pacman.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman - Bitbucket\Pacman\Pacman\Pacman\bin\x86\Debug\Content\beanMagique.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman - Bitbucket\Pacman\Pacman\Pacman\bin\x86\Debug\Content\fantome_cyan.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman - Bitbucket\Pacman\Pacman\Pacman\bin\x86\Debug\Content\fantome_orange.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman - Bitbucket\Pacman\Pacman\Pacman\bin\x86\Debug\Content\fantome_rose.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman - Bitbucket\Pacman\Pacman\Pacman\bin\x86\Debug\Content\fantome_rouge.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman - Bitbucket\Pacman\Pacman\Pacman\bin\x86\Debug\Content\fan_mangeable.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman - Bitbucket\Pacman\Pacman\Pacman\bin\x86\Debug\Content\pacmanGauche.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman - Bitbucket\Pacman\Pacman\Pacman\bin\x86\Debug\Content\pacmanBas.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman - Bitbucket\Pacman\Pacman\Pacman\bin\x86\Debug\Content\pacmanHaut.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman - Bitbucket\Pacman\Pacman\Pacman\bin\x86\Debug\Content\FantomePeur1.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman - Bitbucket\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Invincible.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman - Bitbucket\Pacman\Pacman\Pacman\bin\x86\Debug\Content\MonsterEaten.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman - Bitbucket\Pacman\Pacman\Pacman\bin\x86\Debug\Content\PoliceScore.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman - Bitbucket\Pacman\Pacman\Pacman\bin\x86\Debug\Pacman.exe
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman - Bitbucket\Pacman\Pacman\Pacman\bin\x86\Debug\Pacman.pdb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman - Bitbucket\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.dll
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman - Bitbucket\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.Game.dll
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman - Bitbucket\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.dll
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman - Bitbucket\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.dll
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman - Bitbucket\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.dll
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman - Bitbucket\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.xml
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman - Bitbucket\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.Game.xml
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman - Bitbucket\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.xml
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman - Bitbucket\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.xml
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman - Bitbucket\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.xml
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman - Bitbucket\Pacman\Pacman\Pacman\obj\x86\Debug\Pacman.csprojResolveAssemblyReference.cache
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman - Bitbucket\Pacman\Pacman\Pacman\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman - Bitbucket\Pacman\Pacman\Pacman\obj\x86\Debug\Pacman.exe
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman - Bitbucket\Pacman\Pacman\Pacman\obj\x86\Debug\Pacman.pdb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman - Bitbucket\Pacman\Pacman\Pacman\bin\x86\Debug\Content\viePacman.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman - Bitbucket\Pacman\Pacman\Pacman\bin\x86\Debug\Content\policePlay.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\viePacman.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\policePlay.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\fantome_mort.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\JOLIVET_TAGUEJOU\pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\mur.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\JOLIVET_TAGUEJOU\pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\bean.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\JOLIVET_TAGUEJOU\pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\pacman.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\JOLIVET_TAGUEJOU\pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\beanMagique.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\JOLIVET_TAGUEJOU\pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\fantome_cyan.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\JOLIVET_TAGUEJOU\pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\fantome_orange.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\JOLIVET_TAGUEJOU\pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\fantome_rose.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\JOLIVET_TAGUEJOU\pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\fantome_rouge.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\JOLIVET_TAGUEJOU\pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\fan_mangeable.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\JOLIVET_TAGUEJOU\pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\pacmanGauche.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\JOLIVET_TAGUEJOU\pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\pacmanBas.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\JOLIVET_TAGUEJOU\pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\pacmanHaut.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\JOLIVET_TAGUEJOU\pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\fantome_mort.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\JOLIVET_TAGUEJOU\pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\viePacman.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\JOLIVET_TAGUEJOU\pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Invincible.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\JOLIVET_TAGUEJOU\pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\MonsterEaten.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\JOLIVET_TAGUEJOU\pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\PoliceScore.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\JOLIVET_TAGUEJOU\pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Content\policePlay.xnb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\JOLIVET_TAGUEJOU\pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Pacman.exe
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\JOLIVET_TAGUEJOU\pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Pacman.pdb
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\JOLIVET_TAGUEJOU\pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.dll
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\JOLIVET_TAGUEJOU\pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.Game.dll
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\JOLIVET_TAGUEJOU\pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.dll
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\JOLIVET_TAGUEJOU\pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.dll
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\JOLIVET_TAGUEJOU\pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.dll
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\JOLIVET_TAGUEJOU\pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.xml
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\JOLIVET_TAGUEJOU\pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.Game.xml
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\JOLIVET_TAGUEJOU\pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.xml
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\JOLIVET_TAGUEJOU\pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.xml
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\JOLIVET_TAGUEJOU\pacman\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.xml
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\JOLIVET_TAGUEJOU\pacman\Pacman\Pacman\Pacman\obj\x86\Debug\Pacman.csprojResolveAssemblyReference.cache
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\JOLIVET_TAGUEJOU\pacman\Pacman\Pacman\Pacman\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\JOLIVET_TAGUEJOU\pacman\Pacman\Pacman\Pacman\obj\x86\Debug\Pacman.exe
+C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\JOLIVET_TAGUEJOU\pacman\Pacman\Pacman\Pacman\obj\x86\Debug\Pacman.pdb
