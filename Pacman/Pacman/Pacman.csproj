@@ -78,6 +78,9 @@
     <Compile Include="Affichage\Affichage.cs" />
     <Compile Include="Affichage\Bean.cs" />
     <Compile Include="Affichage\BeanMagique.cs" />
+    <Compile Include="Fantomes\FantomeCyan.cs" />
+    <Compile Include="Fantomes\FantomeOrange.cs" />
+    <Compile Include="Fantomes\FantomeRose.cs" />
     <Compile Include="Utiles\Coord.cs" />
     <Compile Include="Fantomes\FantomeRouge.cs" />
     <Compile Include="Fantomes\Fantomes.cs" />

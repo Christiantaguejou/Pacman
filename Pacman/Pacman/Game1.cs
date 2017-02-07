@@ -27,9 +27,9 @@ namespace Pacman
         //Variables Globales
         private Pacman _pacman;
         private FantomeRouge _fantomeRouge;
-        private Fantomes _fantomeRose;
-        private Fantomes _fantomeOrange;
-        private Fantomes _fantomeCyan;
+        private FantomeRose _fantomeRose;
+        private FantomeOrange _fantomeOrange;
+        private FantomeCyan _fantomeCyan;
         private Fantomes[] tabFantomes = new Fantomes[4];
 
         private Mur _mur;
@@ -126,9 +126,9 @@ namespace Pacman
             //Initialisation des objets du jeu
             _pacman = new Pacman(pacman, map);
             _fantomeRouge = new FantomeRouge(fantomeRouge, rougeMangeable, rougeMort);
-            _fantomeRose = new Fantomes(fantomeRose, roseMangeable, roseMort);
-            _fantomeOrange = new Fantomes(fantomeOrange, orangeMangeable, orangeMort);
-            _fantomeCyan = new Fantomes(fantomeCyan, cyanMangeable, cyanMort);
+            _fantomeRose = new FantomeRose(fantomeRose, roseMangeable, roseMort);
+            _fantomeOrange = new FantomeOrange(fantomeOrange, orangeMangeable, orangeMort);
+            _fantomeCyan = new FantomeCyan(fantomeCyan, cyanMangeable, cyanMort);
 
             tabFantomes[0] = _fantomeRouge;
             tabFantomes[1] = _fantomeCyan;
@@ -256,15 +256,15 @@ namespace Pacman
                 compteurVitesseFantome++;
 
                 //Pouvoir
-                MangerPouvoir(pacman.coord.X, pacman.coord.Y);  //On vérifie à chaqu'instant si le pacman à mangé un pouvoir, si c'est le cas
-                                                                //Le compteur tpsPouvoir est déclenché
-                if (tpsPouvoir.ElapsedMilliseconds > 6000) //6000 = temps pendant lequel les fantomes seront vulnérables
+                MangerPouvoir(pacman.coord.X, pacman.coord.Y);        //On vérifie à chaqu'instant si le pacman à mangé un pouvoir, si c'est le cas
+                                                                      //Le compteur tpsPouvoir est déclenché
+                if (tpsPouvoir.ElapsedMilliseconds > 6000)            //6000 = temps pendant lequel les fantomes seront vulnérables
                 {
-                    RegenFantome();     //Les fantomes retrouvent leurs textures. Ils vont de nouveau chasser le pacman
-                    tpsPouvoir.Reset(); //On remet le compteur à zero
+                    RegenFantome();                                   //Les fantomes retrouvent leurs textures. Ils vont de nouveau chasser le pacman
+                    tpsPouvoir.Reset();                               //On remet le compteur à zero
 
                     for (int j = 0; j < tabFantomes.Length; j++)
-                        tabFantomes[j].getEtatMangeable = false;    //On remet leur état par défaut
+                        tabFantomes[j].getEtatMangeable = false;      //On remet leur état par défaut
 
                     mangeable = false;  
                 }
@@ -388,9 +388,9 @@ namespace Pacman
             //S'ils sont mort
             if (_fantome.getEtatMort == true)
             {
-                fantome.Texture = Content.Load<Texture2D>("./Fantomes/fantome_mort");  //ils changent de textures
-               // _fantome.getEtatMangeable = false;                       //Ils ne sont plus mangeables
-                fantome.coord = _fantome.retourMaison(new Coord(14, 13), fantome, texture, map); //Ils rentrent dans leur maison pour mettre leur texture par defaut et chasser le pacman
+                fantome.Texture = Content.Load<Texture2D>("./Fantomes/fantome_mort");            //ils changent de textures
+                                                                                                 //Ils ne sont plus mangeables
+                fantome.coord = _fantome.retourMaison(new Coord(14, 12), fantome, texture, map); //Ils rentrent dans leur maison pour mettre leur texture par defaut et chasser le pacman
             }
             
         }
