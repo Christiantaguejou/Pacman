@@ -5,6 +5,9 @@ using System.Text;
 
 namespace Pacman
 {
+    /// <summary>
+    /// Cette classe Hérite de la classe Fantomes et de toutes ses méthodes
+    /// </summary>
     class FantomeRose : Fantomes
     {
         ObjetAnime fantome;

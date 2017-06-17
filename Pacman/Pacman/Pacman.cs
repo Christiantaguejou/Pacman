@@ -21,8 +21,6 @@ namespace Pacman
         byte[,] map;
         string direction;
         
-        
-
         public Pacman ( ObjetAnime pacman, byte[,] map) : base() {
             this.pacman = pacman;
             this.map = map;
@@ -56,9 +54,11 @@ namespace Pacman
             KeyboardState keyboard = Keyboard.GetState();
             if (keyboard.IsKeyDown(Keys.Right))
             {
-                if (map[pacman.coord.X, pacman.coord.Y + 1] == 0)   //Si le pacman veut se diriger vers un mur,
-                {                                                   // la méthode ContrainteDeplacement() ne traite pas ce cas, donc le pacman ne change pas de direction
-                    ContrainteDeplacement(direction, spriteBatch);  //La direction ne change pas et le pacman continuer d'avancer tout droit
+                //Si la direction choisie est un mur, la méthode ContrainteDeplacement ne traite pas ce déplacement
+                //Ainsi, le pacman continue d'avancer tout droit
+                if (map[pacman.coord.X, pacman.coord.Y + 1] == 0)   
+                {                                                   
+                    ContrainteDeplacement(direction, spriteBatch);  
                 }
                 else
                 {
@@ -112,10 +112,13 @@ namespace Pacman
             }
         }
 
+        /// <summary>
+        /// Permet d'éviter que le pacman se dirige vers un mur
+        /// Il permet aussi au pacman de sortir d'un coté de la map pour entrer de l'autre coté
+        /// </summary>
         public void ContrainteDeplacement(string key, SpriteBatch spriteBatch)
         {
             //Permet de sortir des 2 cotés de la map
-
             if (key == "Left" && pacman.coord == new Coord(14,1)) //Si le joueur sort par la gauche
             {
                 pacman.coord = new Coord(14, 27);               //Il rentre par la droite
@@ -129,7 +132,7 @@ namespace Pacman
 
 
             //Modification des coordonnées du Pacman
-            else if (map[pacman.coord.X, pacman.coord.Y - 1] != 0 && key == "Left") //Si le pacman veut tourner à fauche et qu'il n'y a pas de mur...
+            else if (map[pacman.coord.X, pacman.coord.Y - 1] != 0 && key == "Left") //Si le pacman veut tourner à dauche et qu'il n'y a pas de mur...
             {
                 pacman.coord.Y = pacman.coord.Y - 1;                                //On modifie ses coordonnées
                 Mangerbean(pacman.coord.X, pacman.coord.Y, spriteBatch);            //Et il mange les beans
@@ -151,6 +154,9 @@ namespace Pacman
             }
         }
 
+        /// <summary>
+        /// Lorsque le pacman se trouve sur la même case qu'un bean, il le mange
+        /// </summary>
         public void Mangerbean(int a, int b, SpriteBatch spriteBatch)
         {
             spriteBatch.Begin();
@@ -160,8 +166,8 @@ namespace Pacman
                 {
                     if (map[x, y] == 1 && (x == a && y == b))
                     {
-                        map[x, y] = 2; //Dans le main, sur le map, les 2 sont des case vides (comme celle de la "maison" des pacman)
-                        score += 10;   //Donc on remplace le bean par un fond bleu 
+                        map[x, y] = 2; 
+                        score += 10;   
                       //  Game1.sonBean.Play(); //Quand pacman mange un haricot, il emet un son
                     }
                 }
@@ -169,26 +175,5 @@ namespace Pacman
             spriteBatch.End();
 
         }
-
-        public Boolean pacmanProchePouvoir(ObjetAnime pacman, byte[,] map)
-        {
-            for (int i = 0; i < Affichage.VX; i++)
-            {
-                for (int j = 0; j < Affichage.VY; j++)
-                {
-                    if (map[i, j] == 3)
-                    {
-                        if ((Math.Abs(pacman.coord.X - i) <= 5) || (Math.Abs(pacman.coord.Y - j) <= 5))
-                        {
-                            Console.WriteLine("Proche !!!!");
-                            return true;
-                        }
-                    }
-                }
-            }
-            return false;
-        }
-
-
     }
 }

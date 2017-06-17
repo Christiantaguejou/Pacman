@@ -232,3 +232,37 @@ C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman Github\pacman\Pacman\Pa
 C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman Github\pacman\Pacman\Pacman\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman Github\pacman\Pacman\Pacman\obj\x86\Debug\Pacman.exe
 C:\Users\Christian TAGUEJOU\Documents\POLYTECH\C#\Pacman Github\pacman\Pacman\Pacman\obj\x86\Debug\Pacman.pdb
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Map\mur.xnb
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Map\bean.xnb
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Pacman\pacman.xnb
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Map\beanMagique.xnb
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Fantomes\fantome_cyan.xnb
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Fantomes\fantome_orange.xnb
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Fantomes\fantome_rose.xnb
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Fantomes\fantome_rouge.xnb
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Fantomes\fan_mangeable.xnb
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Pacman\pacmanGauche.xnb
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Pacman\pacmanBas.xnb
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Pacman\pacmanHaut.xnb
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Fantomes\fantome_mort.xnb
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Pacman\viePacman.xnb
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Debug\Content\Invincible.xnb
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Debug\Content\MonsterEaten.xnb
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Debug\Content\PoliceScore.xnb
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Debug\Content\policePlay.xnb
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Debug\Pacman.exe
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Debug\Pacman.pdb
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.dll
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.Game.dll
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.dll
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.dll
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.dll
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.xml
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.Game.xml
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.xml
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.xml
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.xml
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\obj\x86\Debug\Pacman.csprojResolveAssemblyReference.cache
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\obj\x86\Debug\Pacman.exe
+C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\obj\x86\Debug\Pacman.pdb

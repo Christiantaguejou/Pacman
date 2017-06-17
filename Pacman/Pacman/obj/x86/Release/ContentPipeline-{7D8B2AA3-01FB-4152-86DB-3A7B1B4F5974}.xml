@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Map\mur.png</Source>
+      <Name>Map\mur</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Release\Content\Map\mur.xnb</Output>
+      <Time>2017-06-16T12:51:38.8211113+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Map\bean.png</Source>
+      <Name>Map\bean</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Release\Content\Map\bean.xnb</Output>
+      <Time>2017-06-16T12:51:38.8181416+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Pacman\pacman.png</Source>
+      <Name>Pacman\pacman</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Release\Content\Pacman\pacman.xnb</Output>
+      <Time>2017-06-16T12:51:38.829111+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Map\beanMagique.png</Source>
+      <Name>Map\beanMagique</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Release\Content\Map\beanMagique.xnb</Output>
+      <Time>2017-06-16T12:51:38.8201125+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Fantomes\fantome_cyan.png</Source>
+      <Name>Fantomes\fantome_cyan</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Release\Content\Fantomes\fantome_cyan.xnb</Output>
+      <Time>2017-06-16T12:51:38.8030846+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Fantomes\fantome_orange.png</Source>
+      <Name>Fantomes\fantome_orange</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Release\Content\Fantomes\fantome_orange.xnb</Output>
+      <Time>2017-06-16T12:51:38.8071449+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Fantomes\fantome_rose.png</Source>
+      <Name>Fantomes\fantome_rose</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Release\Content\Fantomes\fantome_rose.xnb</Output>
+      <Time>2017-06-16T12:51:38.8081106+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Fantomes\fantome_rouge.png</Source>
+      <Name>Fantomes\fantome_rouge</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Release\Content\Fantomes\fantome_rouge.xnb</Output>
+      <Time>2017-06-16T12:51:38.8101419+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Fantomes\fan_mangeable.png</Source>
+      <Name>Fantomes\fan_mangeable</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Release\Content\Fantomes\fan_mangeable.xnb</Output>
+      <Time>2017-06-16T12:51:38.8021429+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Pacman\pacmanGauche.png</Source>
+      <Name>Pacman\pacmanGauche</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Release\Content\Pacman\pacmanGauche.xnb</Output>
+      <Time>2017-06-16T12:51:38.8341422+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Pacman\pacmanBas.png</Source>
+      <Name>Pacman\pacmanBas</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Release\Content\Pacman\pacmanBas.xnb</Output>
+      <Time>2017-06-16T12:51:38.8311429+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Pacman\pacmanHaut.png</Source>
+      <Name>Pacman\pacmanHaut</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Release\Content\Pacman\pacmanHaut.xnb</Output>
+      <Time>2017-06-16T12:51:38.8371108+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Fantomes\fantome_mort.png</Source>
+      <Name>Fantomes\fantome_mort</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Release\Content\Fantomes\fantome_mort.xnb</Output>
+      <Time>2017-06-16T12:51:38.8051107+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Pacman\viePacman.png</Source>
+      <Name>Pacman\viePacman</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Release\Content\Pacman\viePacman.xnb</Output>
+      <Time>2017-06-16T12:51:38.8391435+02:00</Time>
+    </Item>
+    <Item>
+      <Source>Invincible.wav</Source>
+      <Name>Invincible</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Release\Content\Invincible.xnb</Output>
+      <Time>2017-06-16T12:51:38.8161432+02:00</Time>
+    </Item>
+    <Item>
+      <Source>MonsterEaten.wav</Source>
+      <Name>MonsterEaten</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Release\Content\MonsterEaten.xnb</Output>
+      <Time>2017-06-16T12:51:38.8271413+02:00</Time>
+    </Item>
+    <Item>
+      <Source>PoliceScore.spritefont</Source>
+      <Name>PoliceScore</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Release\Content\PoliceScore.xnb</Output>
+      <Time>2017-06-17T23:20:10.9165142+02:00</Time>
+    </Item>
+    <Item>
+      <Source>policePlay.spritefont</Source>
+      <Name>policePlay</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Release\Content\policePlay.xnb</Output>
+      <Time>2017-06-17T23:19:55.5142065+02:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{7D8B2AA3-01FB-4152-86DB-3A7B1B4F5974}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Release</BuildConfiguration>
+      <CompressContent>true</CompressContent>
+      <RootDirectory>C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\PacmanContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\obj\x86\Release\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Christian TAGUEJOU\OneDrive\Documents\CSharp\Pacman\Pacman\Pacman\bin\x86\Release\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T17:22:30+02:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2017-05-01T02:09:44.3687955+02:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

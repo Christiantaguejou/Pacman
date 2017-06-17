@@ -72,11 +72,12 @@ namespace Pacman
         public static SoundEffect sonBean;
         public static Boolean play;
 
-        public Game1() //Dessin de la Map
+        public Game1() 
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
 
+            //Dessin de la Map par un tableau à 2 dimensions
             map = new byte[,]{
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0},
@@ -212,9 +213,8 @@ namespace Pacman
                 //Vitesse et déplacement du Pacman
                 if (compteurVitessePacman > 5)
                 {
-                    _pacman.Deplacement(gameTime, Content, spriteBatch); //Chaque fois que le compteur sera à 5, le pacman bougera d'un "case"
-                    compteurVitessePacman = 0;                           //On remet le compteur à zéro
-                    _pacman.pacmanProchePouvoir(pacman, map);
+                    _pacman.Deplacement(gameTime, Content, spriteBatch);
+                    compteurVitessePacman = 0;                           
                 }
                 compteurVitessePacman++;
 

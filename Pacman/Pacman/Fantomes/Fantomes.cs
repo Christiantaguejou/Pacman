@@ -11,7 +11,7 @@ namespace Pacman
 {
     public class Fantomes : Affichage
     {
-        static Stopwatch tpsPouvoir = new Stopwatch();  //temps pdt lequel les fantomes seront vulnérables
+        static Stopwatch tpsPouvoir = new Stopwatch();  //temps pendant lequel les fantomes seront vulnérables
         ObjetAnime fantome;
         Boolean mangeable;
         Boolean mort;
@@ -44,34 +44,43 @@ namespace Pacman
             spriteBatch.End();
         }
 
+        /// <summary>
+        /// Tous les fantomes, excepté le rouge, ont un déplacement aléatoire
+        /// A chaque Carrefour, un tirage aléatoire est effectué pour choisir la direction vers laquelle le fantome se deplacera
+        /// </summary>
         #region DeplacementAleatoire
        
         public void DeplacementAleatoire(ObjetAnime fantome, byte [,] map, SpriteBatch spriteBatch)
         {
-
-            List<string> liberte = degreDeLiberte(fantome, map); //Liste des mouvement possibles pour le fantome
+            //Liste des mouvement possibles pour le fantome
+            List<string> liberte = degreDeLiberte(fantome, map); 
 
             Random rand = new Random();
             int proba;
+
             string newDirection;
+            //On tire aléatoirement un chiffre
+            proba = rand.Next(0, liberte.Count);
+            //Ce chiffre correspondra à une des positions présente dans la liste liberte   
+            newDirection = liberte[proba];              
 
-            proba = rand.Next(0, liberte.Count);        //On tire aléatoirement un chiffre
-            newDirection = liberte[proba];              //Ce chiffre correspondra à une des positions présente dans la liste liberte
-
+            //On refait le tirage tant que la direction choisie est la direction inverse du fantôme
+            //ça lui évitera de faire sans cesse des aller-retour
             do
             {
-                proba = rand.Next(0, liberte.Count);    //On refait le tirage
+                proba = rand.Next(0, liberte.Count);    
                 newDirection = liberte[proba];      
-            } while (newDirection == sensInverse(directionPrecedente)); //Tant que la direction choisie est la direction inverse du fantome
-                                                                        //ça permet d'éviter que le fantome revienne sur ses pas
+            } while (newDirection == sensInverse(directionPrecedente));
 
-            directionPrecedente = newDirection;                         //On met à jour la direction precedente
+            //On met à jour la direction precedente
+            directionPrecedente = newDirection;                         
 
-            if (fantome.coord == new Coord(14, 2))                      //Si le fantome sort par la gauche
+            //Ceci va permettre au fantome de sortir d'un coté de la map, et de rentrer par un autre coté
+            if (fantome.coord == new Coord(14, 2))                     
             {
-                fantome.coord = new Coord(14, 26);                           //Il rentre par la droite
-                newDirection = "Left";                                       //On modifie la nouvelle direction
-                choixDeplacement(fantome, newDirection, map, spriteBatch);   //Et on fait appel à la fonction qui déplacement le fantome
+                fantome.coord = new Coord(14, 26);                           
+                newDirection = "Left";                                       
+                choixDeplacement(fantome, newDirection, map, spriteBatch);  
             }
             else if (fantome.coord == new Coord(14, 25))                
             {
@@ -83,9 +92,11 @@ namespace Pacman
             choixDeplacement(fantome, newDirection, map, spriteBatch);
         }
 
+        /// <summary>
+        /// Cette méthode permettra de modifier les coordonnées du fantome selon la direction qui a été tirée dans la liste
+        /// </summary>
         protected void choixDeplacement(ObjetAnime objet, string key, byte[,] map, SpriteBatch spriteBatch)
         {
-            //On modifie les coordonnées du fantomes selon la direction qui a été tirée dans la liste des mouvement possibles
             if (key == "Left")
             {
                  objet.coord.Y = objet.coord.Y - 1;
@@ -104,10 +115,14 @@ namespace Pacman
             }
         }
 
+        /// <summary>
+        /// Cette fonction évalue le nombre de direction possible pour la fantome
+        /// Dégré de Liberté = direction où il n'y a pas de mur
+        /// </summary>
         protected List<string> degreDeLiberte(ObjetAnime Fantome, byte[,] map)
         {
-            List<string> degLiberte = new List<string>();           //Liste string qui permet de connaitre les dégrés de liberté du fantome
-            if (map[Fantome.coord.X + 1, Fantome.coord.Y] != 0)     //C'est à dire les directions où il n'y a pas de mur       
+            List<string> degLiberte = new List<string>();          
+            if (map[Fantome.coord.X + 1, Fantome.coord.Y] != 0)        
                 degLiberte.Add("Down");
             if (map[Fantome.coord.X - 1, Fantome.coord.Y] != 0)
                 degLiberte.Add("Up");
@@ -119,22 +134,11 @@ namespace Pacman
             return degLiberte;
         }
 
-        #endregion
 
-        #region Fuite
-        protected void DeplacementFuite(ObjetAnime fantome, ObjetAnime pacman, byte[,] map, List<String> liberte, SpriteBatch spriteBatch)
-        {
-           //Tout comme précedemment, cette fonction donne les déplcament possible du fantome
-            Random rand = new Random();
-            int proba;
-            string mvt;
-
-            proba = rand.Next(0, liberte.Count);               
-            mvt = liberte[proba];                               
-            choixDeplacement(fantome, mvt, map, spriteBatch);
-        }
-
-        protected string sensInverse(string direction) //Cette méthode permet d'avoir l'inverse de chaque direction
+        /// <summary>
+        /// Cette méthode permet d'avoir l'inverse de chaque direction
+        /// </summary>
+        protected string sensInverse(string direction)
         {
             string mvt;
             switch (direction)
@@ -162,6 +166,25 @@ namespace Pacman
             return mvt;
         }
 
+        #endregion
+
+        #region Fuite
+        protected void DeplacementFuite(ObjetAnime fantome, ObjetAnime pacman, byte[,] map, List<String> liberte, SpriteBatch spriteBatch)
+        {
+           //Tout comme précedemment, cette fonction donne les déplcament possible du fantome
+            Random rand = new Random();
+            int proba;
+            string mvt;
+
+            proba = rand.Next(0, liberte.Count);               
+            mvt = liberte[proba];                               
+            choixDeplacement(fantome, mvt, map, spriteBatch);
+        }
+
+        /// <summary>
+        /// Si un fantome est "vulnérable", et qu'il se trouve sur la même ligne ou la même colonne que le Pacman,
+        /// il prendra le sens inverse de sa direction afin de s'échapper
+        /// </summary>
         public void fuite(ObjetAnime fantome, ObjetAnime pacman, byte [,] map, SpriteBatch spriteBatch)
         {
             List<String> direction = new List<String>() ;
@@ -240,6 +263,11 @@ namespace Pacman
 
         }
 
+        /// <summary>
+        /// Cette fonction sera appelé quand un fantôme aura été mangé par le pacman
+        /// En effet, il devra rentrer dans sa "maison" pour pouvoir réapparaitre
+        /// Pour optimiser son déplacement vers sa maison, j'ai utilisé l'algorithme de DIJSKTRA
+        /// </summary>
         public  Coord retourMaison(Coord arr, ObjetAnime fantome, Texture2D texture, byte[,] map) //Cette méthode permet à l'"ame" du fantome (quand celui ci est mangé) de retourner dans sa maison et de réapparaitre
         {
 
@@ -369,36 +397,7 @@ namespace Pacman
 
         #endregion
 
-        public void pacmanVisible(ObjetAnime fantome, ObjetAnime pacman, byte [,] map)
-        {
-            if(fantome.coord.X == pacman.coord.X)                       //Si le pacman et le fantome sont sur la même ligne
-            {
-                if(fantome.coord.Y < pacman.coord.Y)                    //Si le fantome est à gauche du pacman
-                {
-                    if (map[fantome.coord.X, fantome.coord.Y + 1] != 0)//S'il y'a pas de mur entre le pacman et le fantome
-                        fantome.coord.Y += fantome.coord.Y;             //Le fantome va vers le pacman
-                }
-                else if (fantome.coord.Y > pacman.coord.Y)              //Si le fantome est à droite du pacman
-                {
-                    if (map[fantome.coord.X, fantome.coord.Y - 1] != 0)
-                        fantome.coord.Y -= fantome.coord.Y;
-                }
-            }
-
-            else if (fantome.coord.Y == pacman.coord.Y)                  //Si le pacman et le fantome sont sur la même colonne
-            {
-                if (fantome.coord.X < pacman.coord.X)                    //Si le fantome est en haut du pacman
-                {
-                    if (map[fantome.coord.X + 1, fantome.coord.Y] != 0)
-                        fantome.coord.X += fantome.coord.X;
-                }
-                else if (fantome.coord.X > pacman.coord.X)               //Si le fantome est en bas
-                {
-                    if (map[fantome.coord.X - 1, fantome.coord.Y] != 0)
-                        fantome.coord.X -= fantome.coord.X;
-                }
-            }
-        }
+       
 
         public Boolean getEtatMangeable
         {

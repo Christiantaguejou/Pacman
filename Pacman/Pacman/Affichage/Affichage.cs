@@ -14,7 +14,9 @@ namespace Pacman
 
         public virtual void Afficher() {}
 
-
+        /// <summary>
+        /// Permettra d'afficher les objets de la map. Elle sera hérité par Bean, BeanMagique et Mur
+        /// </summary>
         public void AfficherMap(ObjetAnime objet, SpriteBatch spriteBatch, int i, byte[,] map)
         {
             spriteBatch.Begin();

@@ -6,9 +6,13 @@ using Microsoft.Xna.Framework;  //  for Vector2
 
 namespace Pacman
 {
+    /// <summary>
+    /// Cette classe permettra d'afficher les objets sur la map
+    /// Chaque Object aura une Texture et un Vecteur position
+    /// </summary>
     public class ObjetAnime
     {
-        private Texture2D _texture;    //  sprite texture 
+        private Texture2D _texture;    
         public Coord coord;
 
         public Texture2D Texture
@@ -16,14 +20,14 @@ namespace Pacman
             get { return _texture; }
             set { _texture = value; }
         }
-        private Vector2 _position;     //  sprite position on screen
+        private Vector2 _position;   
 
         public Vector2 Position
         {
             get { return _position; }
             set { _position = value; }
         }
-        private Vector2 _size;         //  sprite size in pixels
+        private Vector2 _size;        
 
         public Vector2 Size
         {

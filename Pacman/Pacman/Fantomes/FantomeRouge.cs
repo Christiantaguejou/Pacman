@@ -6,7 +6,11 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace Pacman
 {
-    class FantomeRouge : Fantomes //Héritage de la classe Fantomes
+
+    /// <summary>
+    /// Cette classe Hérite de la classe Fantomes
+    /// </summary>
+    class FantomeRouge : Fantomes
     {
         ObjetAnime fantome;
         public FantomeRouge(ObjetAnime fantome, Boolean mangeable, Boolean mort) : base(fantome, mangeable, mort)
@@ -16,6 +20,9 @@ namespace Pacman
             mort = false;
         }
         
+        /// <summary>
+        /// Implémentation de l'algorithme de Dijsktra en l'adaptant au Pacman
+        /// </summary>
         public Coord Dijkstra(ObjetAnime arr, ObjetAnime dep, byte[,] map, Coord positionInitial)
         {
 
@@ -34,7 +41,7 @@ namespace Pacman
 
             mesSommets[arr.coord.X, arr.coord.Y].Potentiel = 0;
             Coord courant = arr.coord;
-            //Honnetement, j'ai pas tout compris à ce while donc bon...
+            
             while (courant != dep.coord)
             {
                 Sommet z = mesSommets[courant.X, courant.Y];
@@ -117,7 +124,7 @@ namespace Pacman
 
            if(dep.coord != arr.coord)
             {
-                if (suivant.Y != dep.coord.Y)//Si leur coord sont différents...
+                if (suivant.Y != dep.coord.Y)
                 {
                     if (suivant.Y > dep.coord.Y)
                         suivant.Y = dep.coord.Y + 1; //Droite

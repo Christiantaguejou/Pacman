@@ -6,6 +6,9 @@ using Microsoft.Xna.Framework;
 
 namespace Pacman
 {
+    /// <summary>
+    /// Permettra d'avoir les coordonnées des objets
+    /// </summary>
     public class Coord
     {
         public int X, Y;
